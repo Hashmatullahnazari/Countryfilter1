@@ -1,3 +1,4 @@
 # Countryfilter1
 
-This Application will filter any contry you seach for
+When Using this application you will be able to filter any country you choose 
+API used the REST Countries API
