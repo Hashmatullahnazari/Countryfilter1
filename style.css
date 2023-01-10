@@ -1,0 +1,78 @@
+    /* Add some style to the search bar and columns */
+    .search-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .search-bar {
+      width: 50%;
+      height: 40px;
+      border: 2px solid #000;
+      border-radius: 20px;
+      padding: 0 20px;
+      outline: none;
+      font-size: 16px;
+    }
+   /* Style the container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+/* Style the columns */
+.column {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* Style the country divs */
+.country {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Style the flag image */
+.country img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Style the name div */
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Style the capital div */
+.capital {
+  
+  font-size: 16px;
+  color: gray;
+  margin: 5px 0;
+}
+
+/* Style the population div */
+.population {
+  border: 1px solid red;
+  font-size: 14px;
+  color: gray;
+  margin: 5px 0;
+}
+
+
+@media (max-width: 600px) and (min-width: 0px) {
+  /* Make the columns take up the full width of the screen */
+  .column {
+    width: 100%;
+  }
+}
